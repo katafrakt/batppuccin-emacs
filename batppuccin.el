@@ -1178,6 +1178,19 @@ The light flavor.")
          `(elfeed-search-unread-count-face ((,class (:foreground ,bat-blue :weight bold))))
          `(elfeed-search-unread-title-face ((,class (:foreground ,bat-text :weight bold))))
 
+;;;;; elixir-ts-mode
+         `(elixir-ts-atom ((,class (:foreground ,bat-teal))))
+         `(elixir-ts-attribute ((,class (:foreground ,bat-pink))))
+         `(elixir-ts-comment-doc-attribute ((,class (:foreground ,bat-subtext0 :slant ,comment-slant))))
+         `(elixir-ts-comment-doc-identifier ((,class (:foreground ,bat-subtext0 :slant ,comment-slant))))
+         `(elixir-ts-keyword-key ((,class (:inherit elixir-ts-atom))))
+         `(elixir-ts-sigil-name ((,class (:foreground ,bat-green))))
+
+;;;;; elixir-mode
+         `(elixir-attribute-face ((,class (:foreground ,bat-pink))))
+         `(elixir-atom-face ((,class (:foreground ,bat-teal))))
+         `(elixir-number-face ((,class (:foreground ,bat-peach))))
+
 ;;;;; embark
          `(embark-keybinding ((,class (:foreground ,bat-mauve :weight bold))))
          `(embark-collect-marked ((,class (:foreground ,bat-base :background ,bat-mauve))))

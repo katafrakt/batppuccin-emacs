@@ -3,6 +3,7 @@
 ## main (unreleased)
 
 - [#20](https://github.com/bbatsov/batppuccin-emacs/pull/20): Add appearance options: customizable heading scale factors (`batppuccin-height-1` through `-height-3` and `-height-doc-title`), `batppuccin-use-variable-pitch`, `batppuccin-italic-comments` and `batppuccin-flat-mode-line`.
+- Add face support for Elixir
 
 ## 1.1.0 (2026-07-26)
 

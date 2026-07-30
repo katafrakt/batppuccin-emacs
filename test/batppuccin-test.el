@@ -306,6 +306,11 @@ frame-side face recomputation (which is unreliable in batch)."
                 breadcrumb-imenu-crumbs-face breadcrumb-imenu-base-face
                 breadcrumb-project-leaf-face breadcrumb-project-crumbs-face
                 breadcrumb-project-base-face)
+    (elixir-ts-mode elixir-ts-atom elixir-ts-attribute
+                    elixir-ts-comment-doc-attribute
+                    elixir-ts-comment-doc-identifier
+                    elixir-ts-keyword-key elixir-ts-sigil-name)
+    (elixir-mode elixir-attribute-face elixir-atom-face elixir-number-face)
     (gptel gptel-context-highlight-face gptel-context-deletion-face
            gptel-rewrite-highlight-face gptel-response-highlight
            gptel-response-fringe-highlight))
